@@ -7,3 +7,10 @@ if (horario<=5){
 } else {
     console.log("VOCE ESTA NO HORARIO");
 }
+let nome02 = "Wanessa";
+let nome03 = " é minha amiga";
+console.log(nome02 + nome03);
+
+
+let quixada = "matheus";
+console.log(quixada.length);
