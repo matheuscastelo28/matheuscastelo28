@@ -1,3 +1,6 @@
+let estudosferias= "matheus está estudando nas férias";
+console.log(estudosferias);
+
 const estudos = " matheus está estudando";
 if (" matheus está estudando" === estudos){
     console.log("matheus estudou nas ferias");
@@ -50,3 +53,37 @@ do {
 } while (numero02<=8);{
     console.log("carregando02...")
 }
+
+const numeroSecreto = Math.floor(Math.random() * 10) + 1;
+let tentativa;
+let acertou = false;
+
+// Enquanto não acertar...
+while (!acertou) {
+    // Aqui simulamos a tentativa, mas poderia ser com prompt() no navegador
+    tentativa = Math.floor(Math.random() * 10) + 1; 
+    console.log("Tentando:", tentativa);
+
+    if (tentativa === numeroSecreto) {
+        console.log("🎉 Acertou! O número era", numeroSecreto);
+        acertou = true;
+    } else {
+        console.log("❌ Errou, tente de novo...");
+    }
+}
+
+const contagem = [1, 2, 3, 4, 5, 6];
+if (contagem == 1,2,3,4,5) {
+    console.log("contagem fora de sequencia");
+} else {
+    console.log("A contagem está certa");
+}
+ 
+
+let numeri = 2;
+
+do {
+   console.log( numeri++);
+ } while(numeri<=9);
+
+
